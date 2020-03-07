@@ -1,0 +1,149 @@
+.h{
+	background-color:orange;
+	color:white;
+}
+body{
+	background-image: url(E:\img.jpg);
+	 background-repeat : no-repeat;
+	 background-attachment: scroll;
+	  background-size:cover;
+} 
+.h{
+	border-style:dashed;
+	border-color: white;
+	border-radius: 25px; 
+	border-width: 5px;
+}
+P{
+	margin:10px;
+	text-align:center;
+	text-decoration: overline;
+text-transform: uppercase;
+
+word-spacing: 500px;
+line-height: 1.5;
+word-spacing: 50px;
+
+
+padding:10px; 
+
+	border-top-style:dotted;
+	border-top-color:gold;
+	border-top-width:5px;
+
+	border-bottom-style:solid;
+	border-bottom-color:#f8b400;
+	border-bottom-width:5px;
+}
+
+a:link{
+	background-color:green;
+	color:red;
+}
+a:visited{
+	background-color:red;
+}
+
+a:active{
+	background-color:black;
+	color:gold;
+}
+
+a:hover{
+	background-color:yellow;
+	color:green;
+}
+
+ul {
+  list-style-position: inside;
+}
+ol {
+  list-style-position: outside;
+}
+ol li{
+	color:red;
+}
+ul li{
+	color:white;
+}
+ol {
+  background: gold;
+  padding: 20px;
+ 
+}
+
+ul {
+	
+  background: lightgreen;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid orange; 
+}
+table {
+  width: 60%;
+}
+th,td {
+  height: 50px;
+}
+tr:nth-child(even) {
+	background-color:red;
+	}
+tr:nth-child(odd) {
+	background-color:green;
+	}
+td{
+	padding-left:5px;
+}
+tr:hover{
+	background-color:white;
+	color:white;
+}
+
+.imgg{
+	position:static;
+	top:50px;
+	right:100px;
+}
+}
+
+.imgg{
+	float:right;
+}
+
+.bo{
+	width:auto;
+	height:320px;
+	border:2px solid red;
+		margin:0;
+		 background: radial-gradient(red, yellow);
+}	
+
+.an{
+	padding:9px;
+	width:30%;
+	border:2px solid red;
+	
+	background-color: red;
+	border-radius: 25px; 
+ 
+  animation-name: en; 
+  animation-duration: 20s;   
+}
+
+@keyframes en {
+  0%   {background-color: red;}
+  15%  {background-color: #eef5b2;}
+  30%  {background-color: #297ca0;}
+  45% {background-color: #eef5b2;}
+  60% {background-color: #46b3e6;}
+  75% {background-color: #4d80e4;}
+  88% {background-color: hotpink;}
+  95% {background-color: #e5dfdf;}
+ 
+}
+
+ 
